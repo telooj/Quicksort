@@ -42,7 +42,7 @@ public class Quicksort {
     }
 
     public static void main(String[] args) {
-        Integer[] array = {12, 18, 3, 7, 87, 44, 63, 50};
+        Integer[] array = new Integer[]{12, 18, 3, 7, 87, 44, 63, 50};
         Quicksort.<Integer>quicksort(array, 0, array.length - 1);
         for (int k = 0; k < array.length; k++) System.out.println(array[k]);
     }
